@@ -4,48 +4,380 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <title>Yeremmi Sarmiento Alonzo</title>
+    <link rel="stylesheet" href="estilos.css">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slider.css">
+
+    <!-- <script src="index.js"></script> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
 </head>
 
 <body>
 
 
-    <header>
+
+    <div id="fondoInicio">
+
         <nav>
             <div class="logo">
                 <img id="logoImg" src="IMg.png" alt="Logo de mi Portafolio">
             </div>
             <ul class="nav-links">
-                <li><a href="#inicio">Sobre Mí</a></li>
+                <li><a href="#Sobre_Mi">Sobre Mí</a></li>
+                <li><a href="#Tecnologias">Tecnologías</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#acerca-de">Testimonios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-    </header>
 
-    <div class="container">
-        <img id="fotoImg" src="logo.png" alt="Tu Foto">
-        <h1 class="centered-header">Hola, mi nombre es Yeremmi Sarmiento Alonzo</h1>
-    </div>
+        <div class="cont-Principal">
+            <div class="cont-segundo">
+                <div class="cont-Imagen">
+                    <!-- <img id="FotoImg" src="logoEjemplo.jpg" alt="Logo de mi Portafolio"> -->
+                    <img id="FotoImg" src="Yo1.jpg" alt="Logo de mi Portafolio">
+                </div>
+                <div class="cont-Nombre">
+                    <div id="cont-icono">
+                        <!-- <i id="icono" class="fa-solid fa-computer"></i> -->
+                        <!-- <i id="icono" class="fa-solid fa-gear"></i> -->
+                        <h1>Yeremmi Sarmiento Alonzo</h1>
+                        <!-- <i id="icono" class="fa-solid fa-palette"></i> -->
+                        <!-- <i class="fa-solid fa-brush"></i> -->
+                    </div>
 
-    <div class="cont-Principal">
-        <div class="sobreMi">
-            <div class="TituloSobreMi">
-                <h1>Sobre Mi</h1>
-            </div>
-            <div class="informacion">
-                <p>Aquí puedes escribir algo sobre ti. Cuéntanos tus intereses, habilidades y experiencia.</p>
+                    <!-- <i id="icono" class="fa-solid fa-computer"></i>
+                    <p>Desarrollador FrontEnd - BackEnd</p> -->
+
+                    <div id="cont-icono">
+                        <i id="icono" class="fa-solid fa-computer"></i>
+                        <p>Desarrollador FrontEnd - BackEnd</p>
+                        <!-- <i id="icono" class="fa-solid fa-palette"></i> -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <div>
-        
+
+    <div class="Cont-Biografía" id="Sobre_Mi">
+
+        <div class="cont-informacion">
+
+            <div class="cont-titulo">
+                <h1>Sobre Mi</h1>
+            </div>
+            <div class="cont-info">
+                <!-- <h1>Yeremmi Sarmiento Alonzo</h1> -->
+                <!-- <p>Desarrollador FrontEnd - BackEnd</p> -->
+                <div id="Midescripcion">
+                    <p>Hola, soy un estudiante de Ingeniería de Desarrollo y Gestión de Software. Me apasiona la
+                        programación y tengo experiencia en el desarrollo de aplicaciones web, especialmente en Angular
+                        y Laravel. Mi objetivo es utilizar mi habilidad técnica para resolver problemas y crear
+                        soluciones efectivas. Estoy emocionado por nuevas oportunidades en el mundo del desarrollo de
+                        software.</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <!-- <div class="Cont-Biografía">
+
+        <div class="cont-informacion">
+
+            <div class="cont-titulo">
+                <h1>Herramientas utilizadas</h1>
+
+            </div>
+            <div class="cont-info">
+                
+                <div id="MiSkills">
+                    <img id="imgTamanio" src="1.png" alt="">
+                    <img id="imgTamanio" src="2.png" alt="">
+                    <img id="imgTamanio" src="3.png" alt="">
+                    <img id="imgTamanio" src="4.png" alt="">
+                    <img id="imgTamanio" src="5.png" alt="">
+                    <img id="imgTamanio" src="6.png" alt="">
+                    <img id="imgTamanio" src="7.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="Cont-Biografía" id="Tecnologias">
+        <div class="cont-informacion">
+            <div class="cont-titulo">
+                <h1>Uso de Tecnologías</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="container" style="background-color: rgb(0, 48, 45);">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="1.png" alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2" src="2.png" alt="3D rendering of an imaginary green planet in space" />
+                <img id="slide-3" src="3.png" alt="3D rendering of an imaginary blue planet in space" />
+                <img id="slide-4" src="4.png" alt="3D rendering of an imaginary blue planet in space" />
+                <img id="slide-5" src="5.png" alt="3D rendering of an imaginary blue planet in space" />
+                <img id="slide-6" src="6.png" alt="3D rendering of an imaginary blue planet in space" />
+                <img id="slide-7" src="7.png" alt="3D rendering of an imaginary blue planet in space" />
+
+            </div>
+            <!-- <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div> -->
+
+            <!-- <div class="slider-nav">
+                <a href="#" id="prevBtn">Anterior</a>
+                <a href="#" id="nextBtn">Siguiente</a>
+            </div> -->
+        </div>
+    </section>
+
+
+    <div class="Cont-Biografía" id="proyectos">
+        <div class="cont-informacion">
+            <div class="cont-titulo">
+                <h1>Proyectos</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="Cont-Biografía">
+
+        <div class="cont-informacion2">
+
+            <!-- <div class="cont-titulo">
+                <h1>Sobre Mi</h1>
+            </div> -->
+            <div class="contenedor">
+                <a href="#">
+                    <figure>
+                        <img src="fondoInicio1.jpg">
+                        <div class="capa">
+                            <b>
+                                <h3>Recetario de cocina</h3>
+                            </b>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, vero!</p> -->
+                            <i id="iconoFoto" class="fa-brands fa-github"></i>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="contenedor">
+                <a href="#">
+                    <figure>
+                        <img src="fondoInicio2.jpg">
+                        <div class="capa">
+                            <b>
+                                <h3>Sistema de Gestor de Citas</h3>
+                            </b>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, vero!</p> -->
+                            <i id="iconoFoto" class="fa-brands fa-github"></i>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="contenedor">
+                <a href="#">
+                    <figure>
+                        <img
+                            src="https://res.cloudinary.com/slee-dw/image/upload/v1597941457/meta-tutoriales_vbnc37.png">
+                        <div class="capa">
+                            <b>
+                                <h3>Skill de Alexa - UBR</h3>
+                            </b>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, vero!</p> -->
+                            <i id="iconoFoto" class="fa-brands fa-github"></i>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="Cont-Biografía" id="testimonios">
+
+        <div class="cont-informacion">
+
+            <div class="cont-titulo">
+                <h1>Testimonios</h1>
+            </div>
+            <div class="cont-info">
+                <!-- <h1>Yeremmi Sarmiento Alonzo</h1> -->
+                <!-- <p>Desarrollador FrontEnd - BackEnd</p> -->
+                <div id="Midescripcion">
+                    <div class="deslizante">
+                        <div class="cont-slider">
+                            <div class="cont-imgTestimonio">
+                                <img id="imgTestimonio" src="testimonio1.jpg" alt="Imagen 1">
+                                <div id="cont-espacioTituloTestimonio">
+                                    <h2>Alexander</h2>
+                                </div>
+                            </div>
+                            <div id="DescTestimonio">
+                                <p>Yeremmi es un colaborador valioso en cualquier
+                                    equipo de desarrollo. Su disposición para colaborar, su ética
+                                    de trabajo impecable y su habilidad para resolver problemas son
+                                    activos que enriquecen cualquier proyecto.</p>
+                            </div>
+                            <div class="btn-slider">
+                                <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                                <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deslizante">
+                        <div class="cont-slider">
+                            <div class="cont-imgTestimonio">
+                                <img id="imgTestimonio" src="testimonio2.jpg" alt="Imagen 1">
+                                <div id="cont-espacioTituloTestimonio">
+                                    <h2>Martín</h2>
+                                </div>
+                            </div>
+
+                            <div id="DescTestimonio">
+                                <p>Yeremmi es un desarrollador talentoso y versátil que sobresale en el
+                                    arte de crear aplicaciones web dinámicas y sólidas. Su profundo conocimiento de
+                                    Angular y Laravel se traduce en soluciones técnicas de alta calidad que superan las
+                                    expectativas.</p>
+                            </div>
+                            <div class="btn-slider">
+                                <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                                <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deslizante">
+                        <div class="cont-slider">
+                            <div class="cont-imgTestimonio">
+                                <img id="imgTestimonio" src="testimonio3.jpg" alt="Imagen 1">
+                                <div style="width: 100%;">
+                                    <h2>Carolina</h2>
+                                </div>
+                            </div>
+
+                            <div id="DescTestimonio">
+                                <p>Lo que realmente diferencia a Yeremmi es su capacidad para diseñar y
+                                    construir aplicaciones web sofisticadas que son a la vez atractivas y funcionales.
+                                    Sus habilidades en la creación de interfaces de usuario dinámicas con Angular y en
+                                    la implementación de backend eficientes con Laravel son notables.</p>
+                            </div>
+                            <div class="btn-slider">
+                                <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                                <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="deslizantes">
+        <div class="deslizante">
+            <div class="cont-slider">
+                <img id="imgTestimonio" src="1.png" alt="Imagen 1">
+                <h2>Título 1</h2>
+                <p>Descripción 1</p>
+                <button class="prev-btn">Anterior</button>
+                <button class="next-btn">Siguiente</button>
+            </div>
+        </div>
+        <div class="deslizante">
+            <div class="cont-slider">
+                <img id="imgTestimonio" src="2.png" alt="Imagen 2">
+                <h2>Laravel</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio blanditiis dolores
+                    reprehenderit
+                    corporis inventore cum consectetur nesciunt in quia aperiam tempore assumenda natus dolore
+                    repellat
+                    minus libero voluptatum, officiis maiores!</p>
+                <button class="prev-btn">Anterior</button>
+                <button class="next-btn">Siguiente</button>
+            </div>
+
+        </div>
+        <div class="deslizante">
+            <div class="cont-slider">
+                <img id="imgTestimonio" src="3.png" alt="Imagen 2">
+                <h2>MySQL</h2>
+                <p>Descripción 2</p>
+                <button class="prev-btn">Anterior</button>
+                <button class="next-btn">Siguiente</button>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- <div class="slider-container">
+        <div class="deslizantes">
+            <div class="deslizante">
+                <img src="1.png" alt="Imagen 1">
+                <h2>Título 1</h2>
+                <p>Descripción 1</p>
+                <button class="prev-btn">Anterior</button>
+                <button class="next-btn">Siguiente</button>
+            </div>
+            <div class="deslizante">
+                <img src="2.png" alt="Imagen 2">
+                <h2>Título 2</h2>
+                <p>Descripción 2</p>
+                <button class="prev-btn">Anterior</button>
+                <button class="next-btn">Siguiente</button>
+            </div>
+        </div>
+    </div> -->
+
+    <footer>
+        <div class="container" id="contacto">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1>Mi Sitio</h1>
+                    <p>Un sitio genial</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#Sobre_Mi">Sobre Mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="index.js"></script>
 
 </body>
 
